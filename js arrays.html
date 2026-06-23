@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>student information</h2>
+    <p id="output"></p>
+
+    <script>
+
+
+
+
+
+
+
+
+
+         let colours =["red","blue","green","yellow "];
+         let joinedcolors=colours.join(" - " );
+         
+         let removedcolours=colours.pop();
+         colours.push("purple");
+
+
+         document.getElementById("output").innerHTML =
+
+"<b>Original Array:</b> Red, Blue,green,yellow <br><br>" +
+
+"<b>Using join():</b><br>" +
+
+joinedColours + "<br><br>" +
+
+"<b>Using pop():</b><br>" +
+
+"Removed Element: " + removedColours + "<br>" +
+
+"Array After pop(): " + colours + "<br><br>" +
+
+"<b>Using push():</b><br>" +
+
+"Array After push('Purple'): " + colours;
+
+         
+
+
+
+            
+           
+             
+    </script>
+</body>
+</html>
